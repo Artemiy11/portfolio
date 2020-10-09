@@ -11,20 +11,24 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
-@import 'blocks/promo';
+@import 'blocks/promo/promo';
 @import 'blocks/title';
 @import 'blocks/line';
 @import 'blocks/btn';
 @import 'blocks/buttons';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
-@import 'blocks/me';
+@import 'blocks/me/me';
 @import 'blocks/resume';
 @import 'blocks/skills';
 @import 'blocks/projects';
 @import 'blocks/pricelist';
 @import 'blocks/contacts';
+
+@import 'blocks/media';
+@import 'blocks/promo/promo-media';
+@import 'blocks/me/me-media';
