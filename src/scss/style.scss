@@ -23,8 +23,8 @@
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/me/me';
-@import 'blocks/resume';
-@import 'blocks/skills';
+@import 'blocks/resume/resume';
+@import 'blocks/skills/skills';
 @import 'blocks/projects';
 @import 'blocks/pricelist';
 @import 'blocks/contacts';
@@ -32,3 +32,5 @@
 @import 'blocks/media';
 @import 'blocks/promo/promo-media';
 @import 'blocks/me/me-media';
+@import 'blocks/resume/resume-media';
+@import 'blocks/skills/skills-media';
